@@ -1,11 +1,7 @@
 return {
-  { "loctvl842/monokai-pro.nvim", priority = 1000 },
+  { "rebelot/kanagawa.nvim", priority = 1000, opt = { transparent = true } },
   {
     "LazyVim/LazyVim",
-    opts = { colorscheme = "monokai-pro" },
-  },
-  {
-    "loctvl842/monokai-pro.nvim",
-    opts = { filter = "pro", transparent_background = true },
+    opts = { colorscheme = "kanagawa-dragon" },
   },
 }
