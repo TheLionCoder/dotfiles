@@ -1,16 +1,31 @@
 return {
   "stevearc/conform.nvim",
   opts = {
-    require("conform").setup({
-      formatters_by_ft = {
-        lua = { "stylua" },
-        -- Conform will run multiple formatters sequentially
-        python = { "ruff" },
-        -- You can customize some of the format options for the filetype (:help conform.format)
-        rust = { "rustfmt", lsp_format = "fallback" },
-        -- Conform will run the first available formatter
-        javascript = { "prettierd", "prettier", stop_after_first = true },
+    formatters_by_ft = {
+      lua = { "stylua" },
+      python = { "ruff" },
+      rust = { "rustfmt", lsp_format = "fallback" },
+      javascript = { "prettierd", "prettier", stop_after_first = true },
+      sql = { "sqlfluff" },
+      markdown = { "prettier", "markdownlint-cli2", "markdown-toc" },
+    },
+
+    formatters = {
+      sqlfluff = {
+        cwd = require("conform.util").root_file({ ".sqlfluff", "pyproject.toml", ".git" }),
+        require_cwd = false,
+        args = { "format", "--dialect", "ansi", "-" },
       },
-    }),
+      ["markdown-toc"] = {
+        condition = function()
+          return true
+        end,
+      },
+      ["markdownlint-cli2"] = {
+        condition = function()
+          return true
+        end,
+      },
+    },
   },
 }
