@@ -5,4 +5,5 @@ vim.opt.undofile = true
 vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 vim.opt.spelllang = { "en_us", "es" }
-
+vim.opt.confirm = true
+vim.opt.title = true
