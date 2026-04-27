@@ -14,7 +14,6 @@ vim.pack.add{
   { src = 'https://github.com/3rd/image.nvim.git' },
   { src = 'https://github.com/nvim-tree/nvim-web-devicons.git' },
   { src = 'https://github.com/folke/which-key.nvim.git' },
-  { src = 'https://github.com/rcarriga/nvim-notify.git' },
   { src = 'https://github.com/stevearc/conform.nvim.git' },
   { src = 'https://github.com/nvim-treesitter/nvim-treesitter.git' },
   { src = 'https://github.com/saecki/crates.nvim.git' },
