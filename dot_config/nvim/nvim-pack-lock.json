@@ -1,14 +1,5 @@
 {
   "plugins": {
-    "blink.cmp": {
-      "rev": "9b10d1934c10f2746fde5e25cfccda9f57356d21",
-      "src": "https://github.com/saghen/blink.cmp.git",
-      "version": "1.0.0 - 2.0.0"
-    },
-    "blink.lib": {
-      "rev": "1c9dfb261b8be35f689c6d83dfd3e92b7f59ecf8",
-      "src": "https://github.com/saghen/blink.lib.git"
-    },
     "conform.nvim": {
       "rev": "dca1a190aa85f9065979ef35802fb77131911106",
       "src": "https://github.com/stevearc/conform.nvim.git"
@@ -41,14 +32,6 @@
       "rev": "12ddd182d9efbdc848b540f16484a583d52da0fb",
       "src": "https://github.com/mason-org/mason.nvim.git"
     },
-    "mini.completion": {
-      "rev": "667d94669be66043123cac44e7c5d65a31657732",
-      "src": "https://github.com/nvim-mini/mini.completion.git"
-    },
-    "mini.icons": {
-      "rev": "bac6317300e205335df425296570d84322730067",
-      "src": "https://github.com/nvim-mini/mini.icons.git"
-    },
     "mini.nvim": {
       "rev": "5849ef04c32a6a8e55957b946c0a275801d87530",
       "src": "https://github.com/nvim-mini/mini.nvim.git"
@@ -61,21 +44,9 @@
       "rev": "de740991c12411b663994b2860f1a4fd0937c130",
       "src": "https://github.com/MunifTanjim/nui.nvim.git"
     },
-    "nvim-cmp": {
-      "rev": "a1d504892f2bc56c2e79b65c6faded2fd21f3eca",
-      "src": "https://github.com/hrsh7th/nvim-cmp.git"
-    },
     "nvim-lspconfig": {
       "rev": "e146efacbafed3789ac568abcc5a981c5decaa58",
       "src": "https://github.com/neovim/nvim-lspconfig"
-    },
-    "nvim-notify": {
-      "rev": "8701bece920b38ea289b457f902e2ad184131a5d",
-      "src": "https://github.com/rcarriga/nvim-notify.git"
-    },
-    "nvim-surround": {
-      "rev": "9291040de8cd8a4439eb64c441e8d5d2bf884a5a",
-      "src": "https://github.com/kylechui/nvim-surround.git"
     },
     "nvim-treesitter": {
       "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
@@ -90,8 +61,9 @@
       "src": "https://github.com/nvim-lua/plenary.nvim.git"
     },
     "rustaceanvim": {
-      "rev": "d909c237135c95b2b3dbb132dbcd8e3ca9a913c8",
-      "src": "https://github.com/mrcjkb/rustaceanvim"
+      "rev": "bc391bbb8db0dbf3e3e9fe8f9f03112ecbab7463",
+      "src": "https://github.com/mrcjkb/rustaceanvim",
+      "version": "9.0.0 - 10.0.0"
     },
     "snacks.nvim": {
       "rev": "ad9ede6a9cddf16cedbd31b8932d6dcdee9b716e",

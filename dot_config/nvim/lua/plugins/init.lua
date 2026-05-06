@@ -17,6 +17,10 @@ vim.pack.add{
   { src = 'https://github.com/stevearc/conform.nvim.git' },
   { src = 'https://github.com/nvim-treesitter/nvim-treesitter.git' },
   { src = 'https://github.com/saecki/crates.nvim.git' },
+  {
+  src = 'https://github.com/mrcjkb/rustaceanvim',
+  version = vim.version.range('^9')
+}
 }
 
 require("plugins.colorscheme")
