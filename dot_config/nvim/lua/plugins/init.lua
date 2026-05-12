@@ -20,7 +20,9 @@ vim.pack.add{
   {
   src = 'https://github.com/mrcjkb/rustaceanvim',
   version = vim.version.range('^9')
-}
+  },
+  { src = 'https://github.com/saghen/blink.lib' },
+  { src = 'https://github.com/saghen/blink.cmp.git' }
 }
 
 require("plugins.colorscheme")

@@ -8,6 +8,6 @@ vim.opt.spelllang = { "en_us", "es" }
 vim.opt.confirm = true
 vim.opt.title = true
 vim.opt.splitright = true
-vim.opt.autocomplete = true
 vim.opt.wrap = false
 vim.opt.winborder = "rounded"
+vim.opt.completeopt = {"menuone", "noselect", "popup"}
