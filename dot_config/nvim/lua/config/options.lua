@@ -11,3 +11,4 @@ vim.opt.splitright = true
 vim.opt.wrap = false
 vim.opt.winborder = "rounded"
 vim.opt.completeopt = {"menuone", "noselect", "popup"}
+vim.opt.background = "dark"

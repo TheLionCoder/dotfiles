@@ -3,7 +3,7 @@ vim.pack.add{
   { src = 'https://github.com/neovim/nvim-lspconfig' },
   { src = 'https://github.com/mason-org/mason.nvim.git' },
   { src = 'https://github.com/mason-org/mason-lspconfig.nvim.git' },
-  { src = 'https://github.com/rebelot/kanagawa.nvim.git' },
+  { src = 'https://github.com/ellisonleao/gruvbox.nvim' },
   { src = 'https://github.com/ibhagwan/fzf-lua.git' },
   { src = 'https://github.com/nvim-mini/mini.nvim.git' },
   { src = 'https://github.com/lewis6991/gitsigns.nvim.git' },
@@ -22,7 +22,8 @@ vim.pack.add{
   version = vim.version.range('^9')
   },
   { src = 'https://github.com/saghen/blink.lib' },
-  { src = 'https://github.com/saghen/blink.cmp.git' }
+  { src = 'https://github.com/saghen/blink.cmp.git' },
+  { src = 'https://github.com/github/copilot.vim.git' },
 }
 
 require("plugins.colorscheme")

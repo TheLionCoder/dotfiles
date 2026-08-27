@@ -1,1 +1,2 @@
-vim.cmd("colorscheme kanagawa-wave")
+require("gruvbox").setup()
+vim.cmd.colorscheme("gruvbox")
